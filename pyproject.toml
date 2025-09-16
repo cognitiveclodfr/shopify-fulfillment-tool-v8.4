@@ -1,0 +1,18 @@
+[tool.ruff]
+line-length = 120
+
+[tool.ruff.lint]
+select = ["E", "F", "W"]
+
+[project]
+name = "shopify-fulfillment-tool"
+version = "0.1.0"
+
+[tool.ruff.format]
+quote-style = "double"
+indent-style = "space"
+skip-magic-trailing-comma = false
+line-ending = "auto"
+
+[tool.setuptools]
+packages = ["shopify_tool"]
